@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/btn_add_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_button_text"
+            android:onClick="populateDatabase"/>
+
+        <Button
+            android:id="@+id/btn_search_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/search_movies_button_text"
+            android:onClick="openSearchScreen"/>
+
+        <Button
+            android:id="@+id/btn_search_actor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/search_actors_button_text"
+            android:onClick="searchActorScreen"/>
+
+        <Button
+            android:id="@+id/btn_search_movies_online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/search_movies_on_web_button_text"
+            android:onClick="searchByTitleFromWebService" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
