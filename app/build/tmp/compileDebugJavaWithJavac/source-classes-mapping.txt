@@ -1,0 +1,11 @@
+com/assignment/movies/database/db/MoviesDatabase_Impl.java
+ com.assignment.movies.database.db.MoviesDatabase_Impl
+ com.assignment.movies.database.db.MoviesDatabase_Impl$1
+com/assignment/movies/BuildConfig.java
+ com.assignment.movies.BuildConfig
+com/assignment/movies/database/dao/MoviesDao_Impl.java
+ com.assignment.movies.database.dao.MoviesDao_Impl
+ com.assignment.movies.database.dao.MoviesDao_Impl$1
+ com.assignment.movies.database.dao.MoviesDao_Impl$2
+ com.assignment.movies.database.dao.MoviesDao_Impl$3
+ com.assignment.movies.database.dao.MoviesDao_Impl$4
